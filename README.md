@@ -11,6 +11,7 @@ You may interact with the program via command line prompts. 7 choices are availa
 
 After option 1,4,5,7, if you want to get details about any recommended movie, you are also provided for 5 options: 1 - Basic Information; 2 - Language and Cast/Crew; 3 - Production and Financials; 4 - Ratings and Popularity; 5 - All Information
 
+Python packages required: pandas, requests, network, ast, matplotlib.pyplot, (also json and os)
 
 
 
