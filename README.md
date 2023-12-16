@@ -13,7 +13,11 @@ After option 1,4,5,7, if you want to get details about any recommended movie, yo
 
 Python packages required: pandas, requests, network, ast, matplotlib.pyplot, (also json and os)
 
+final_anqi.py is the complete code for this project
 
+
+
+ 
 
 
 
