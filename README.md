@@ -15,6 +15,17 @@ Python packages required: pandas, requests, network, ast, matplotlib.pyplot, (al
 
 final_anqi.py is the complete code for this project
 
+cache.json is the cache for information retrieved from TMDB API
+
+construct_graph.py is the python file that constructs the graphs from stored data
+
+movie_graph.json is the JSON file with the graph
+
+read_json_graph.py is a stand along python file that reads the json of the graph
+
+tmdb_5000_credits.csv.zip is the zip of the tmdb_5000_credits.csv data
+
+tmdb_5000_movies.csv is the tmdb_5000_movies data
 
 
  
