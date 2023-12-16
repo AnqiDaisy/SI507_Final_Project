@@ -27,6 +27,25 @@ tmdb_5000_credits.csv.zip is the zip of the tmdb_5000_credits.csv data
 
 tmdb_5000_movies.csv is the tmdb_5000_movies data
 
+# Data Structure
+Our system utilizes a graph to represent and analyze relationships between movies based on various attributes like genres, cast, and crew. The graph structure facilitates the identification of similar movies and enhances the recommendation process.
+
+Nodes: In the graph, each node represents an individual movie. Every node is tagged with several attributes including:
+
+id: A unique identifier for the movie.
+
+title: The title of the movie.
+
+genres: A list of genres associated with the movie.
+
+Edges: Edges in the graph represent the relationships between movies. An edge is formed between two movies if they share certain characteristics. Currently, edges are primarily based on shared genres. If two movies belong to the same genre, an edge is created between them.
+
+Graph Type: The graph is undirected, indicating that the relationships are mutual. The connection between any two movies does not have a direction or hierarchy.
+
+Graph Construction Process
+Node Creation: For each movie in the dataset, a node is created in the graph with its associated attributes.
+
+Edge Formation: To form edges, the graph algorithm iterates through each movie and identifies other movies that share common genres. An edge is established for each of these shared attributes.
 
  
 
